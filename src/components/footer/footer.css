@@ -1,0 +1,53 @@
+footer{
+    margin-top: 200px;
+    border-top: 1px solid black;
+   /*  background-color: rgba(0, 0, 0, 0.836);
+    color: rgba(255, 255, 255, 0.74); */
+}
+
+.prefooter{
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.prefooter-column {
+    flex: 1;
+    text-align: center;
+}
+
+.prefooter i {
+    padding-right: 10px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 7px;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer {
+    background-image: url('../../img/bg-card.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    color: #ffffffca;
+}
+
+footer::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.826);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+footer a {
+    color: cyan;
+}

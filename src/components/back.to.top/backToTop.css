@@ -1,0 +1,20 @@
+#back-to-top {
+    padding: 50px 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: +2;
+}
+
+#back-to-top i {
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #406365;
+    color: white;
+    padding: 9px 13px;
+    border: 2px solid white;
+}
+
+#back-to-top i:hover {
+    filter: brightness(120%);
+}

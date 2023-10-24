@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #f8f8f8e8;
+    z-index: 999;
+    padding-inline: 10px;
+}
+
+
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav a {
+    
+    padding:15px  10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.745);
+    font-weight: 600;
+}
+
+
+#hamburger {
+    display: none;
+
+}
+
+
+
+.home-link img {
+    width: 50px;
+}
+
+.home-link {
+    padding-top: 10px;
+}

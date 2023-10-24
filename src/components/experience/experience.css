@@ -1,0 +1,81 @@
+.exp-container {
+    padding: 50px 100px;
+    margin-bottom: 100px;
+   /*  background-color: #f8f8f8; */
+}
+
+.exp-txt div {
+    flex:1;
+}
+
+.studies {
+    padding:30px 0 0 50px;
+    gap: 60px;
+}
+
+.studies-container{
+    border-right: 1px solid black;
+}
+
+.courses {
+    border-left: 1px solid rgba(0, 0, 0, 0.463);
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+
+
+.exp-container h3 {
+    border-top: 1px solid black;
+    border-right:1px solid black;
+    padding: 30px 40px 0 0;
+    margin:0 0 60px 50px;
+}
+
+.studies p{
+    line-height: 40px;
+}
+
+.share {
+    animation: moveHorizontal 0.3s linear infinite alternate; 
+}
+
+i.fa-share {
+    font-size: 50px;
+    transform: rotatex(180deg);
+}
+
+@keyframes moveHorizontal {
+    from {
+        transform: translateX(0); 
+    }
+    to {
+        transform: translateX(20px); 
+    }
+}
+
+
+.exp button {
+    width: 110px;
+    height: max-content;
+    padding-block: 10px;
+    border-radius: 20px;
+   /*  background: rgb(58, 221, 112);
+    background: radial-gradient(circle, rgba(58, 221, 112, 1) 0%, rgba(34, 146, 160, 1) 100%); */
+    margin-bottom: 100px;
+}
+
+.exp button:hover {
+    padding-left: 10px;
+    transition: 0.4s;
+    border: 2px solid rgba(0, 0, 0, 0.297);
+}
+
+
+.exp {
+    gap: 30px;
+}
+
+.exp h4 {
+    margin-top: 10px;
+}

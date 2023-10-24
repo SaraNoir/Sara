@@ -1,0 +1,78 @@
+* {
+  /*   margin: 0;
+    padding: 0;  */
+   /*  border: 1px solid green; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'EB Garamond', serif;
+    /* color: rgba(255, 255, 255, 0.488); */
+   
+}
+
+
+body {
+   /*  background-color: rgba(0, 0, 0, 0.836); */
+/*  cursor: url('../img/wand.svg'), auto;  */
+/*  background-color: #f8f8f8; */
+  margin: 0;
+  background-image: url('../img/filigrana3.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffda; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+
+li{
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(123, 2, 2);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+} */
+
+
+/* 
+------------------------ NIGHT MODE ------------------------ */
+/* 
+body::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.899);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+*{
+color:#f8f8f8;
+background-color: rgba(0, 0, 0, 0.899);
+} */

@@ -1,0 +1,13 @@
+.blog {
+    margin-top: 200px;
+    padding-bottom: 520px;
+    gap: 15px;
+}
+
+.blog-title{
+    text-transform: uppercase;
+    gap: 15px;
+    margin: 0;
+    letter-spacing: 3px;
+
+}
