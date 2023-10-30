@@ -100,3 +100,14 @@ i.fa.fa-phone {
     line-height: 30px;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width:678px) { 
+    .contacts{
+        flex-direction: column;
+    }
+
+    .contacts-column {
+        padding: 0;
+        justify-content: center;
+    }
+}

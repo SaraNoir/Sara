@@ -7,6 +7,10 @@ import icon from '../../img/house.png';
 
 export function Header() {
 
+function showMenu(){
+    document.getElementById("nav").classList.toggle("show");
+}
+
     return (
         <>
             <header>
@@ -23,9 +27,9 @@ export function Header() {
                     {/* <Link to ='/' className="home-link"><i class="fa fa-home" style={{ fontSize: '24px' }}></i></Link> */}
                     <Link to='/' className="home-link"><img src={icon} alt="" /></Link>
                 </nav>
-                <div id="hamburger">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+                <button id="hamburger" onClick={showMenu}>
+                    <i class="fa fa-bars"></i>
+                </button>
             </header>
         </>
     );

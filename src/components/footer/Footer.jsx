@@ -20,7 +20,7 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="column align-c">
-                <p>Potete visionare il codice di questo sito su GitHub: <a href="">repository </a><a href=""><i class="fa fa-github"></i></a></p>
+                <p>Potete visionare il codice di questo sito su GitHub: <a href="https://github.com/SaraNoir/Sara" target="_blank">repository </a><a href="https://github.com/SaraNoir/Sara" target="_blank"><i class="fa fa-github"></i></a></p>
                    <p className="align-c">Copyright © 2023 Sara Esu <img src={logo} alt="" /></p> 
                 </div>
             </footer>

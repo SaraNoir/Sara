@@ -48,3 +48,33 @@ nav a:hover {
 .home-link {
     padding-top: 10px;
 }
+
+
+@media screen and (max-width:678px) { 
+ 
+    header {
+        padding: 5px;
+    }
+    #nav {
+        display: none;
+        position: absolute;
+        top: 107.16px;
+        background-color: #ffffffcb;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    #nav.show {
+        display: block;
+    }
+
+    #nav a {
+        display: block;
+    }
+
+    #hamburger {
+        display: block;
+        font-size: 35px;
+
+    }
+}

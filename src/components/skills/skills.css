@@ -138,3 +138,17 @@
 .content {
     padding-right: 300px;
 }
+
+
+@media screen and (max-width:678px) { 
+   
+    .skills-container {
+       flex-direction: column;
+       gap: 30px;
+       margin-inline:20px;
+    }
+
+    .wp, .content {
+        padding: 0;
+    }
+}

@@ -80,3 +80,19 @@
 .hero-txt-icon {
     padding-top: 2px;
 }
+
+@media screen and (max-width:678px) { 
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 200px;
+        gap: 60px;
+    }
+    .hero-column {
+        margin-bottom: 0;
+    }
+
+    .hero-column img {
+        width: 90%;
+    }
+}

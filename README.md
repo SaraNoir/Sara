@@ -1,3 +1,15 @@
+Il mio sito personale realizzato in React
+
+Il progetto è organizzato in cartelle:
+'public' : contiene file statici, come l'HTML prinicpale;
+'src': contiene il codice sorgente dell'app React ed è a sua volta diviso in cartelle:
+-'components':contenente tutti i componenti; ogni componente ha una sua cartella con relativi file jsx e css.
+-'img': contenente tutte le immagini;
+'locales': contenente file json e js per l'inserimento dinamico dei dati.
+-'style: contiene solo due file: reset.css e style.css.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Header } from "../header/Header";
 import { Skills } from "../skills/Skills";
-import { Game } from "../game/Game";
 import { BackToTop } from "../back.to.top/BackToTop";
 import { Footer } from "../footer/Footer";
 import { Hero } from "../hero/Hero";
@@ -16,7 +15,6 @@ export function Home() {
             <Header />
             <Hero />
             <Skills />
-            {/*  <Game /> */}
             <BackToTop />
             <Footer />
         </>
