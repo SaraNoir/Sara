@@ -1,16 +1,12 @@
-import { Header } from "../header/Header";
-import { Footer } from "../footer/Footer";
 import './contacts.css';
 import '../../style/style.css';
 import '../../style/reset.css';
-import FontAwesome from 'react-fontawesome';
 import TitleUser from "../page.title/TitleUser";
 
 export function Contacts() {
 
     return (
         <>
-            <Header />
             <section className="contacts-section">
                 <TitleUser title="Contacts"/>
                 <div className="flex contacts">
@@ -70,8 +66,6 @@ export function Contacts() {
                 </div>
             </section>
 
-
-            <Footer />
 
 
         </>

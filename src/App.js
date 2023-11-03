@@ -4,11 +4,14 @@ import {Blog} from "./components/blog/Blog";
 import { About } from "./components/about/About";
 import { Contacts } from "./components/contacts/Contacts";
 import NotFound from "./components/not.found/NotFound";
+import { Header } from "./components/header/Header";
+import { Footer } from "./components/footer/Footer";
 
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Header />
       <Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='*' element={<NotFound />} />
@@ -16,7 +19,8 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/contacts' element={<Contacts />} />
 				</Routes>
-    </div>
+        <Footer />
+    </>
   );
 }
 

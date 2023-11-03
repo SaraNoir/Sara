@@ -3,9 +3,7 @@ import '../../style/reset.css';
 import '../../style/style.css';
 import { useState, useEffect } from "react";
 import { Experience } from "../experience/Experience";
-import { Header } from "../header/Header";
 import { BackToTop } from "../back.to.top/BackToTop";
-import { Footer } from "../footer/Footer";
 import device from "../../img/laptop.png"
 import data from "../../locales/about/info.js";
 import data2 from "../../locales/about/likes.js";
@@ -28,7 +26,6 @@ export function About() {
     };
     return (
         <>
-            <Header />
             <TitleUser title="About me" /> 
             <div className="about-card column border width-max-c">
                 <div className="justify-end btn-lang">
@@ -95,7 +92,6 @@ export function About() {
 
             </section> */}
             <BackToTop />
-            <Footer />
 
         </>
     );
